@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hongl\\Desktop\\C# winform\\Car_Return\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|c:\\users\\hongl\\desktop\\c# winform\\car_return\\car_return\\uc_car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|solutionrelative:car_return\\uc_car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|c:\\users\\hongl\\desktop\\c# winform\\car_return\\car_return\\uc_car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|solutionrelative:car_return\\uc_car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UC_Car.cs",
+              "DocumentMoniker": "C:\\Users\\hongl\\Desktop\\C# winform\\Car_Return\\Car_Return\\UC_Car.cs",
+              "RelativeDocumentMoniker": "Car_Return\\UC_Car.cs",
+              "ToolTip": "C:\\Users\\hongl\\Desktop\\C# winform\\Car_Return\\Car_Return\\UC_Car.cs",
+              "RelativeToolTip": "Car_Return\\UC_Car.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwD0AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T01:59:10.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UC_Car.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hongl\\Desktop\\C# winform\\Car_Return\\Car_Return\\UC_Car.cs",
+              "RelativeDocumentMoniker": "Car_Return\\UC_Car.cs",
+              "ToolTip": "C:\\Users\\hongl\\Desktop\\C# winform\\Car_Return\\Car_Return\\UC_Car.cs [Design]",
+              "RelativeToolTip": "Car_Return\\UC_Car.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T12:10:33.701Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
