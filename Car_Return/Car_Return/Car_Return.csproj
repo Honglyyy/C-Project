@@ -230,5 +230,8 @@
   <ItemGroup>
     <None Include="Resources\welcome-sign-welcome-transparent-background-115630518046iumllbw8a-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-black-car-with-logo-company_636116-436-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

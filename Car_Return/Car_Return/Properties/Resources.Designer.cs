@@ -373,6 +373,16 @@ namespace Car_Return.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap red_black_car_with_logo_company_636116_436_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("red-black-car-with-logo-company_636116-436-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap search_50dp_000000 {
             get {
                 object obj = ResourceManager.GetObject("search_50dp_000000", resourceCulture);

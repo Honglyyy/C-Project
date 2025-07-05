@@ -118,9 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Civic 100" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Civic 100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Corolla FUll" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Corolla FUll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,6 +139,12 @@
   <data name="prius100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\prius100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="yetopen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yetopen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hyundai 1001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hyundai 1001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Audi 100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Audi 100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,8 +154,8 @@
   <data name="Nissan 100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nissan 100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="contact_phone_50dp_FF" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\contact_phone_50dp_FF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="welcome-sign-welcome-transparent-background-115630518046iumllbw8a-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\welcome-sign-welcome-transparent-background-115630518046iumllbw8a-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Hyundai full" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hyundai full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,14 +163,14 @@
   <data name="close_50dp_EA3323" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close_50dp_EA3323.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Nissan Full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nissan Full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logout_50dp_EA3323" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logout_50dp_EA3323.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Civic Full" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Civic Full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-log-in-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-log-in-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ford Full" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ford Full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -177,9 +180,6 @@
   </data>
   <data name="contact_phone_30dp_E3E3E3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\contact_phone_30dp_E3E3E3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="welcome-sign-welcome-transparent-background-115630518046iumllbw8a" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\welcome-sign-welcome-transparent-background-115630518046iumllbw8a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Lexus Full" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lexus Full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,8 +193,8 @@
   <data name="Corolla 100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Corolla 100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="yetopen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yetopen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Civic 100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Civic 100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search_50dp_000000" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search_50dp_000000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,19 +208,22 @@
   <data name="add_50dp_FF" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add_50dp_FF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hyundai 1001" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hyundai 1001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Nissan Full" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nissan Full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-log-in-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-log-in-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Civic 1001" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Civic 1001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="welcome-sign-welcome-transparent-background-115630518046iumllbw8a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\welcome-sign-welcome-transparent-background-115630518046iumllbw8a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contact_phone_50dp_FF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contact_phone_50dp_FF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Q4-headers_Car-sharing mobile_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Q4-headers_Car-sharing mobile_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="welcome-sign-welcome-transparent-background-115630518046iumllbw8a-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\welcome-sign-welcome-transparent-background-115630518046iumllbw8a-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="red-black-car-with-logo-company_636116-436-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red-black-car-with-logo-company_636116-436-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

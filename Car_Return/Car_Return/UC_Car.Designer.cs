@@ -29,6 +29,15 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.modelNameTxt = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.modelNameGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.plateNumberGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.yearGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dailyRatesGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.priusBtn = new System.Windows.Forms.Button();
             this.lexusBtn = new System.Windows.Forms.Button();
@@ -39,23 +48,14 @@
             this.fordBtn = new System.Windows.Forms.Button();
             this.audiBtn = new System.Windows.Forms.Button();
             this.alphardBtn = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.modelNameTxt = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.modelNameGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.plateNumberGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.yearGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.statusGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dailyRatesGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(166)))), ((int)(((byte)(70)))));
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.tableLayoutPanel1.ColumnCount = 8;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 237F));
@@ -102,9 +102,101 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1416, 855);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.tableLayoutPanel1.SetColumnSpan(this.label1, 3);
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(77, 44);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(700, 92);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Cars Selections";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(77, 560);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(231, 52);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Model Name";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // modelNameTxt
+            // 
+            this.tableLayoutPanel1.SetColumnSpan(this.modelNameTxt, 2);
+            this.modelNameTxt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.modelNameTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modelNameTxt.Location = new System.Drawing.Point(314, 563);
+            this.modelNameTxt.Name = "modelNameTxt";
+            this.modelNameTxt.Size = new System.Drawing.Size(463, 39);
+            this.modelNameTxt.TabIndex = 12;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToResizeColumns = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.modelNameGrid,
+            this.plateNumberGrid,
+            this.yearGrid,
+            this.statusGrid,
+            this.dailyRatesGrid});
+            this.tableLayoutPanel1.SetColumnSpan(this.dataGridView1, 4);
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(77, 615);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.tableLayoutPanel1.SetRowSpan(this.dataGridView1, 4);
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(751, 192);
+            this.dataGridView1.TabIndex = 21;
+            // 
+            // modelNameGrid
+            // 
+            this.modelNameGrid.HeaderText = "Model Name";
+            this.modelNameGrid.MinimumWidth = 6;
+            this.modelNameGrid.Name = "modelNameGrid";
+            // 
+            // plateNumberGrid
+            // 
+            this.plateNumberGrid.HeaderText = "Plate Number";
+            this.plateNumberGrid.MinimumWidth = 6;
+            this.plateNumberGrid.Name = "plateNumberGrid";
+            // 
+            // yearGrid
+            // 
+            this.yearGrid.HeaderText = "Year";
+            this.yearGrid.MinimumWidth = 6;
+            this.yearGrid.Name = "yearGrid";
+            // 
+            // statusGrid
+            // 
+            this.statusGrid.HeaderText = "Status";
+            this.statusGrid.MinimumWidth = 6;
+            this.statusGrid.Name = "statusGrid";
+            // 
+            // dailyRatesGrid
+            // 
+            this.dailyRatesGrid.HeaderText = "Daily Rates";
+            this.dailyRatesGrid.MinimumWidth = 6;
+            this.dailyRatesGrid.Name = "dailyRatesGrid";
+            // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(166)))), ((int)(((byte)(70)))));
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.tableLayoutPanel1.SetColumnSpan(this.pictureBox1, 2);
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::Car_Return.Properties.Resources.welcome_sign_welcome_transparent_background_115630518046iumllbw8a_removebg_preview;
@@ -254,98 +346,6 @@
             this.alphardBtn.UseVisualStyleBackColor = true;
             this.alphardBtn.Click += new System.EventHandler(this.alphardBtn_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.tableLayoutPanel1.SetColumnSpan(this.label1, 3);
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(77, 44);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(700, 92);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Cars Selections";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(77, 560);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(231, 52);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "Model Name";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // modelNameTxt
-            // 
-            this.tableLayoutPanel1.SetColumnSpan(this.modelNameTxt, 2);
-            this.modelNameTxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.modelNameTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modelNameTxt.Location = new System.Drawing.Point(314, 563);
-            this.modelNameTxt.Name = "modelNameTxt";
-            this.modelNameTxt.Size = new System.Drawing.Size(463, 39);
-            this.modelNameTxt.TabIndex = 12;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AllowUserToResizeColumns = false;
-            this.dataGridView1.AllowUserToResizeRows = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(166)))), ((int)(((byte)(70)))));
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.modelNameGrid,
-            this.plateNumberGrid,
-            this.yearGrid,
-            this.statusGrid,
-            this.dailyRatesGrid});
-            this.tableLayoutPanel1.SetColumnSpan(this.dataGridView1, 4);
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(77, 615);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.tableLayoutPanel1.SetRowSpan(this.dataGridView1, 4);
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(751, 192);
-            this.dataGridView1.TabIndex = 21;
-            // 
-            // modelNameGrid
-            // 
-            this.modelNameGrid.HeaderText = "Model Name";
-            this.modelNameGrid.MinimumWidth = 6;
-            this.modelNameGrid.Name = "modelNameGrid";
-            // 
-            // plateNumberGrid
-            // 
-            this.plateNumberGrid.HeaderText = "Plate Number";
-            this.plateNumberGrid.MinimumWidth = 6;
-            this.plateNumberGrid.Name = "plateNumberGrid";
-            // 
-            // yearGrid
-            // 
-            this.yearGrid.HeaderText = "Year";
-            this.yearGrid.MinimumWidth = 6;
-            this.yearGrid.Name = "yearGrid";
-            // 
-            // statusGrid
-            // 
-            this.statusGrid.HeaderText = "Status";
-            this.statusGrid.MinimumWidth = 6;
-            this.statusGrid.Name = "statusGrid";
-            // 
-            // dailyRatesGrid
-            // 
-            this.dailyRatesGrid.HeaderText = "Daily Rates";
-            this.dailyRatesGrid.MinimumWidth = 6;
-            this.dailyRatesGrid.Name = "dailyRatesGrid";
-            // 
             // UC_Car
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -356,8 +356,8 @@
             this.Size = new System.Drawing.Size(1416, 855);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
