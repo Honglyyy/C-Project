@@ -19,22 +19,6 @@ namespace Car_Return
         }
         public string carName, plateNum, year, status, dailyRates;
 
-        private void DataGridView1_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
-        {
-            // Assuming Status column is at index 3 (4th column)
-            if (e.ColumnIndex == 3 && e.Value != null)
-            {
-                if (e.Value.ToString() == "Not Available")
-                {
-                    e.CellStyle.ForeColor = Color.Red;
-                }
-                else if (e.Value.ToString() == "Available")
-                {
-                    e.CellStyle.ForeColor = Color.Green;
-                }
-            }
-        }
-
 
         private void priusBtn_Click(object sender, EventArgs e)
         {
