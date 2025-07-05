@@ -233,5 +233,11 @@
   <ItemGroup>
     <None Include="Resources\red-black-car-with-logo-company_636116-436-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receipt_50dp_55A6461.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\honda1001.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

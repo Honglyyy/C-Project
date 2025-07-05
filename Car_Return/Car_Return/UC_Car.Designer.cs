@@ -213,8 +213,7 @@
             this.priusBtn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.priusBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.priusBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.priusBtn.Image = global::Car_Return.Properties.Resources.prius100;
-            this.priusBtn.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.priusBtn.Image = global::Car_Return.Properties.Resources.honda100;
             this.priusBtn.Location = new System.Drawing.Point(77, 140);
             this.priusBtn.Name = "priusBtn";
             this.priusBtn.Size = new System.Drawing.Size(231, 127);
@@ -354,6 +353,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "UC_Car";
             this.Size = new System.Drawing.Size(1416, 855);
+            this.Load += new System.EventHandler(this.UC_Car_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

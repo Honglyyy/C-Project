@@ -31,10 +31,12 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.fullNameGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idGrid = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,11 +46,9 @@
             this.txtId = new System.Windows.Forms.TextBox();
             this.txtPhoneNumber = new System.Windows.Forms.TextBox();
             this.txtEmailAddress = new System.Windows.Forms.TextBox();
-            this.txtSearch = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnAdd = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
@@ -102,6 +102,23 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1064, 731);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.tableLayoutPanel1.SetColumnSpan(this.label1, 5);
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Image = global::Car_Return.Properties.Resources.contact_phone_50dp_FF;
+            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label1.Location = new System.Drawing.Point(27, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1009, 50);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Customer";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -153,6 +170,20 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Email Address";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnAdd.Image = global::Car_Return.Properties.Resources.add_50dp_FF;
+            this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAdd.Location = new System.Drawing.Point(274, 340);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(199, 66);
+            this.btnAdd.TabIndex = 5;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // dataGridView1
             // 
@@ -265,48 +296,6 @@
             this.txtEmailAddress.Size = new System.Drawing.Size(762, 41);
             this.txtEmailAddress.TabIndex = 17;
             // 
-            // txtSearch
-            // 
-            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tableLayoutPanel1.SetColumnSpan(this.txtSearch, 3);
-            this.txtSearch.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.txtSearch.Location = new System.Drawing.Point(274, 412);
-            this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(558, 55);
-            this.txtSearch.TabIndex = 12;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.tableLayoutPanel1.SetColumnSpan(this.label1, 5);
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Image = global::Car_Return.Properties.Resources.contact_phone_50dp_FF;
-            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label1.Location = new System.Drawing.Point(27, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1009, 50);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Customer";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnAdd.Image = global::Car_Return.Properties.Resources.add_50dp_FF;
-            this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAdd.Location = new System.Drawing.Point(274, 340);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(199, 66);
-            this.btnAdd.TabIndex = 5;
-            this.btnAdd.Text = "Add";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            // 
             // btnClear
             // 
             this.btnClear.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -337,6 +326,17 @@
             this.btnSearch.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tableLayoutPanel1.SetColumnSpan(this.txtSearch, 3);
+            this.txtSearch.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
+            this.txtSearch.Location = new System.Drawing.Point(274, 412);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(558, 55);
+            this.txtSearch.TabIndex = 12;
             // 
             // btnDelete
             // 

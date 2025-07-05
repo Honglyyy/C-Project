@@ -33,6 +33,10 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.uC_Cover1 = new Car_Return.UC_Cover();
+            this.uC_Return1 = new Car_Return.UC_Return();
+            this.uC_Customer1 = new Car_Return.UC_Customer();
+            this.uC_Car1 = new Car_Return.UC_Car();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.carBtn = new System.Windows.Forms.Button();
             this.customerBtn = new System.Windows.Forms.Button();
@@ -41,10 +45,6 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.uC_Cover1 = new Car_Return.UC_Cover();
-            this.uC_Return1 = new Car_Return.UC_Return();
-            this.uC_Customer1 = new Car_Return.UC_Customer();
-            this.uC_Car1 = new Car_Return.UC_Car();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -126,16 +126,56 @@
             this.panel1.Size = new System.Drawing.Size(574, 405);
             this.panel1.TabIndex = 0;
             // 
+            // uC_Cover1
+            // 
+            this.uC_Cover1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.uC_Cover1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uC_Cover1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.uC_Cover1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Cover1.Name = "uC_Cover1";
+            this.uC_Cover1.Size = new System.Drawing.Size(574, 405);
+            this.uC_Cover1.TabIndex = 3;
+            // 
+            // uC_Return1
+            // 
+            this.uC_Return1.BackColor = System.Drawing.Color.CadetBlue;
+            this.uC_Return1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uC_Return1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.uC_Return1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Return1.Name = "uC_Return1";
+            this.uC_Return1.Size = new System.Drawing.Size(574, 405);
+            this.uC_Return1.TabIndex = 2;
+            // 
+            // uC_Customer1
+            // 
+            this.uC_Customer1.BackColor = System.Drawing.Color.Chartreuse;
+            this.uC_Customer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uC_Customer1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.uC_Customer1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Customer1.Name = "uC_Customer1";
+            this.uC_Customer1.Size = new System.Drawing.Size(574, 405);
+            this.uC_Customer1.TabIndex = 1;
+            // 
+            // uC_Car1
+            // 
+            this.uC_Car1.BackColor = System.Drawing.Color.Chocolate;
+            this.uC_Car1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uC_Car1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.uC_Car1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Car1.Name = "uC_Car1";
+            this.uC_Car1.Size = new System.Drawing.Size(574, 405);
+            this.uC_Car1.TabIndex = 0;
+            // 
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.tableLayoutPanel4.ColumnCount = 2;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96.94478F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.055215F));
-            this.tableLayoutPanel4.Controls.Add(this.carBtn, 0, 1);
-            this.tableLayoutPanel4.Controls.Add(this.customerBtn, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.button1, 0, 2);
+            this.tableLayoutPanel4.Controls.Add(this.button1, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.panel4, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.carBtn, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.customerBtn, 0, 2);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 3);
@@ -155,7 +195,7 @@
             this.carBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.carBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold);
             this.carBtn.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.carBtn.Location = new System.Drawing.Point(3, 57);
+            this.carBtn.Location = new System.Drawing.Point(3, 3);
             this.carBtn.Name = "carBtn";
             this.carBtn.Size = new System.Drawing.Size(247, 48);
             this.carBtn.TabIndex = 3;
@@ -170,7 +210,7 @@
             this.customerBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.customerBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold);
             this.customerBtn.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.customerBtn.Location = new System.Drawing.Point(3, 3);
+            this.customerBtn.Location = new System.Drawing.Point(3, 111);
             this.customerBtn.Name = "customerBtn";
             this.customerBtn.Size = new System.Drawing.Size(247, 48);
             this.customerBtn.TabIndex = 0;
@@ -185,12 +225,13 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button1.Location = new System.Drawing.Point(3, 111);
+            this.button1.Location = new System.Drawing.Point(3, 57);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(247, 48);
             this.button1.TabIndex = 4;
             this.button1.Text = "Return Car";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel4
             // 
@@ -243,46 +284,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Car Return System";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // uC_Cover1
-            // 
-            this.uC_Cover1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.uC_Cover1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_Cover1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.uC_Cover1.Location = new System.Drawing.Point(0, 0);
-            this.uC_Cover1.Name = "uC_Cover1";
-            this.uC_Cover1.Size = new System.Drawing.Size(574, 405);
-            this.uC_Cover1.TabIndex = 3;
-            // 
-            // uC_Return1
-            // 
-            this.uC_Return1.BackColor = System.Drawing.Color.CadetBlue;
-            this.uC_Return1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_Return1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.uC_Return1.Location = new System.Drawing.Point(0, 0);
-            this.uC_Return1.Name = "uC_Return1";
-            this.uC_Return1.Size = new System.Drawing.Size(574, 405);
-            this.uC_Return1.TabIndex = 2;
-            // 
-            // uC_Customer1
-            // 
-            this.uC_Customer1.BackColor = System.Drawing.Color.Chartreuse;
-            this.uC_Customer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_Customer1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.uC_Customer1.Location = new System.Drawing.Point(0, 0);
-            this.uC_Customer1.Name = "uC_Customer1";
-            this.uC_Customer1.Size = new System.Drawing.Size(574, 405);
-            this.uC_Customer1.TabIndex = 1;
-            // 
-            // uC_Car1
-            // 
-            this.uC_Car1.BackColor = System.Drawing.Color.Chocolate;
-            this.uC_Car1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_Car1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.uC_Car1.Location = new System.Drawing.Point(0, 0);
-            this.uC_Car1.Name = "uC_Car1";
-            this.uC_Car1.Size = new System.Drawing.Size(574, 405);
-            this.uC_Car1.TabIndex = 0;
             // 
             // MainMenuForm
             // 

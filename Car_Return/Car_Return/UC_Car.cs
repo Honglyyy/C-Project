@@ -93,6 +93,11 @@ namespace Car_Return
             pictureBox1.Image = global::Car_Return.Properties.Resources.Nissan_Full;
         }
 
+        private void UC_Car_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void toyotaBtn_Click(object sender, EventArgs e)
         {
             carName = "Toyota Corolla";
