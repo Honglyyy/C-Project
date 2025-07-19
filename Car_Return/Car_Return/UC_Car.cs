@@ -29,10 +29,10 @@ namespace Car_Return
             dataGridView1.Rows.Clear();
 
             // Add multiple records with alternating status
-            dataGridView1.Rows.Add("Toyota Prius", "ABC1234", "2020", "Available", "$50");
-            dataGridView1.Rows.Add("Toyota Prius", "ABC1235", "2021", "Not Available", "$52");
+            dataGridView1.Rows.Add("Toyota Prius", "ABC1234", "2021", "Available", "$52");
+            dataGridView1.Rows.Add("Toyota Prius", "ABC1235", "2020", "Not Available", "$50");
             dataGridView1.Rows.Add("Toyota Prius", "ABC1236", "2019", "Available", "$48");
-            dataGridView1.Rows.Add("Toyota Prius", "ABC1237", "2022", "Not Available", "$55");
+            dataGridView1.Rows.Add("Toyota Prius", "ABC1237", "2018", "Not Available", "$45");
 
             pictureBox1.Image = global::Car_Return.Properties.Resources.Prius_Full;
         }
@@ -43,10 +43,10 @@ namespace Car_Return
             modelNameTxt.Text = carName.ToString();
 
             dataGridView1.Rows.Clear();
-            dataGridView1.Rows.Add("Lexus RX 350", "XYZ5678", "2021", "Available", "$80");
-            dataGridView1.Rows.Add("Lexus RX 350", "XYZ5679", "2020", "Not Available", "$78");
-            dataGridView1.Rows.Add("Lexus RX 350", "XYZ5680", "2022", "Available", "$85");
-            dataGridView1.Rows.Add("Lexus RX 350", "XYZ5681", "2023", "Not Available", "$90");
+            dataGridView1.Rows.Add("Lexus RX 350", "XYZ5678", "2023", "Available", "$90");
+            dataGridView1.Rows.Add("Lexus RX 350", "XYZ5679", "2022", "Not Available", "$85");
+            dataGridView1.Rows.Add("Lexus RX 350", "XYZ5680", "2021", "Available", "$80");
+            dataGridView1.Rows.Add("Lexus RX 350", "XYZ5681", "2020", "Not Available", "$78");
 
             pictureBox1.Image = global::Car_Return.Properties.Resources.Lexus_Full;
         }
@@ -57,10 +57,10 @@ namespace Car_Return
             modelNameTxt.Text = carName.ToString();
 
             dataGridView1.Rows.Clear();
-            dataGridView1.Rows.Add("Honda Civic", "LMN9012", "2019", "Available", "$60");
+            dataGridView1.Rows.Add("Honda Civic", "LMN9012", "2021", "Available", "$66");
             dataGridView1.Rows.Add("Honda Civic", "LMN9013", "2020", "Not Available", "$62");
-            dataGridView1.Rows.Add("Honda Civic", "LMN9014", "2021", "Available", "$65");
-            dataGridView1.Rows.Add("Honda Civic", "LMN9015", "2018", "Not Available", "$58");
+            dataGridView1.Rows.Add("Honda Civic", "LMN9014", "2019", "Available", "$58");
+            dataGridView1.Rows.Add("Honda Civic", "LMN9015", "2018", "Not Available", "$55");
 
             pictureBox1.Image = global::Car_Return.Properties.Resources.Civic_Full;
         }
@@ -71,10 +71,10 @@ namespace Car_Return
             modelNameTxt.Text = carName.ToString();
 
             dataGridView1.Rows.Clear();
-            dataGridView1.Rows.Add("Hyundai Elantra", "QRS3456", "2022", "Available", "$55");
-            dataGridView1.Rows.Add("Hyundai Elantra", "QRS3457", "2021", "Not Available", "$53");
-            dataGridView1.Rows.Add("Hyundai Elantra", "QRS3458", "2020", "Available", "$52");
-            dataGridView1.Rows.Add("Hyundai Elantra", "QRS3459", "2023", "Not Available", "$58");
+            dataGridView1.Rows.Add("Hyundai Elantra", "QRS3456", "2023", "Available", "$58");
+            dataGridView1.Rows.Add("Hyundai Elantra", "QRS3457", "2022", "Not Available", "$55");
+            dataGridView1.Rows.Add("Hyundai Elantra", "QRS3458", "2021", "Available", "$52");
+            dataGridView1.Rows.Add("Hyundai Elantra", "QRS3459", "2020", "Not Available", "$50");
 
             pictureBox1.Image = global::Car_Return.Properties.Resources.Hyundai_full;
         }
@@ -104,9 +104,9 @@ namespace Car_Return
             modelNameTxt.Text = carName.ToString();
 
             dataGridView1.Rows.Clear();
-            dataGridView1.Rows.Add("Toyota Corolla", "WXY1234", "2021", "Available", "$70");
-            dataGridView1.Rows.Add("Toyota Corolla", "WXY1235", "2020", "Available", "$68");
-            dataGridView1.Rows.Add("Toyota Corolla", "WXY1236", "2022", "Not Available", "$72");
+            dataGridView1.Rows.Add("Toyota Corolla", "WXY1234", "2022", "Available", "$72");
+            dataGridView1.Rows.Add("Toyota Corolla", "WXY1235", "2021", "Available", "$70");
+            dataGridView1.Rows.Add("Toyota Corolla", "WXY1236", "2020", "Not Available", "$69");
             dataGridView1.Rows.Add("Toyota Corolla", "WXY1237", "2019", "Available", "$65");
 
             pictureBox1.Image = global::Car_Return.Properties.Resources.Corolla_FUll;
@@ -118,10 +118,10 @@ namespace Car_Return
             modelNameTxt.Text = carName.ToString();
 
             dataGridView1.Rows.Clear();
-            dataGridView1.Rows.Add("Ford Focus", "ZAB5678", "2020", "Not Available", "$75");
-            dataGridView1.Rows.Add("Ford Focus", "ZAB5679", "2021", "Available", "$78");
-            dataGridView1.Rows.Add("Ford Focus", "ZAB5680", "2019", "Not Available", "$72");
-            dataGridView1.Rows.Add("Ford Focus", "ZAB5681", "2022", "Available", "$80");
+            dataGridView1.Rows.Add("Ford Focus", "ZAB5678", "2022", "Not Available", "$80");
+            dataGridView1.Rows.Add("Ford Focus", "ZAB5679", "2021", "Available", "$75");
+            dataGridView1.Rows.Add("Ford Focus", "ZAB5680", "2020", "Not Available", "$72");
+            dataGridView1.Rows.Add("Ford Focus", "ZAB5681", "2019", "Available", "$70");
 
             pictureBox1.Image = global::Car_Return.Properties.Resources.Ford_Full;
         }
@@ -132,10 +132,10 @@ namespace Car_Return
             modelNameTxt.Text = carName.ToString();
 
             dataGridView1.Rows.Clear();
-            dataGridView1.Rows.Add("Audi A4", "CDE9012", "2022", "Not Available", "$90");
-            dataGridView1.Rows.Add("Audi A4", "CDE9013", "2021", "Available", "$88");
-            dataGridView1.Rows.Add("Audi A4", "CDE9014", "2023", "Available", "$95");
-            dataGridView1.Rows.Add("Audi A4", "CDE9015", "2020", "Available", "$85");
+            dataGridView1.Rows.Add("Audi A4", "CDE9012", "2023", "Not Available", "$95");
+            dataGridView1.Rows.Add("Audi A4", "CDE9013", "2022", "Available", "$90");
+            dataGridView1.Rows.Add("Audi A4", "CDE9014", "2021", "Available", "$85");
+            dataGridView1.Rows.Add("Audi A4", "CDE9015", "2020", "Available", "$82");
 
             pictureBox1.Image = global::Car_Return.Properties.Resources.Audi_Full;
         }
@@ -146,10 +146,10 @@ namespace Car_Return
             modelNameTxt.Text = carName.ToString();
 
             dataGridView1.Rows.Clear();
-            dataGridView1.Rows.Add("Toyota Alphard", "FGH3456", "2023", "Available", "$120");
+            dataGridView1.Rows.Add("Toyota Alphard", "FGH3456", "2023", "Available", "$130");
             dataGridView1.Rows.Add("Toyota Alphard", "FGH3457", "2022", "Not Available", "$122");
-            dataGridView1.Rows.Add("Toyota Alphard", "FGH3458", "2021", "Not Available", "$125");
-            dataGridView1.Rows.Add("Toyota Alphard", "FGH3459", "2020", "Not Available", "$130");
+            dataGridView1.Rows.Add("Toyota Alphard", "FGH3458", "2021", "Not Available", "$120");
+            dataGridView1.Rows.Add("Toyota Alphard", "FGH3459", "2020", "Not Available", "$114");
 
             pictureBox1.Image = global::Car_Return.Properties.Resources.Alphard_Full;
         }
