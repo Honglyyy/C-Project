@@ -33,23 +33,29 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.carBtn = new System.Windows.Forms.Button();
+            this.customerBtn = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.BtnLogOut = new System.Windows.Forms.Button();
+            this.welcomeLbl = new System.Windows.Forms.Label();
             this.uC_Cover1 = new Car_Return.UC_Cover();
             this.uC_Return1 = new Car_Return.UC_Return();
             this.uC_Customer1 = new Car_Return.UC_Customer();
             this.uC_Car1 = new Car_Return.UC_Car();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.carBtn = new System.Windows.Forms.Button();
-            this.customerBtn = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -126,46 +132,6 @@
             this.panel1.Size = new System.Drawing.Size(574, 405);
             this.panel1.TabIndex = 0;
             // 
-            // uC_Cover1
-            // 
-            this.uC_Cover1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.uC_Cover1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_Cover1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.uC_Cover1.Location = new System.Drawing.Point(0, 0);
-            this.uC_Cover1.Name = "uC_Cover1";
-            this.uC_Cover1.Size = new System.Drawing.Size(574, 405);
-            this.uC_Cover1.TabIndex = 3;
-            // 
-            // uC_Return1
-            // 
-            this.uC_Return1.BackColor = System.Drawing.Color.CadetBlue;
-            this.uC_Return1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_Return1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.uC_Return1.Location = new System.Drawing.Point(0, 0);
-            this.uC_Return1.Name = "uC_Return1";
-            this.uC_Return1.Size = new System.Drawing.Size(574, 405);
-            this.uC_Return1.TabIndex = 2;
-            // 
-            // uC_Customer1
-            // 
-            this.uC_Customer1.BackColor = System.Drawing.Color.Chartreuse;
-            this.uC_Customer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_Customer1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.uC_Customer1.Location = new System.Drawing.Point(0, 0);
-            this.uC_Customer1.Name = "uC_Customer1";
-            this.uC_Customer1.Size = new System.Drawing.Size(574, 405);
-            this.uC_Customer1.TabIndex = 1;
-            // 
-            // uC_Car1
-            // 
-            this.uC_Car1.BackColor = System.Drawing.Color.Chocolate;
-            this.uC_Car1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_Car1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.uC_Car1.Location = new System.Drawing.Point(0, 0);
-            this.uC_Car1.Name = "uC_Car1";
-            this.uC_Car1.Size = new System.Drawing.Size(574, 405);
-            this.uC_Car1.TabIndex = 0;
-            // 
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -176,6 +142,7 @@
             this.tableLayoutPanel4.Controls.Add(this.panel4, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.carBtn, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.customerBtn, 0, 2);
+            this.tableLayoutPanel4.Controls.Add(this.panel5, 0, 3);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 3);
@@ -187,6 +154,32 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 59.7835F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(261, 405);
             this.tableLayoutPanel4.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button1.Location = new System.Drawing.Point(3, 57);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(247, 48);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Return Car";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel4.Location = new System.Drawing.Point(256, 3);
+            this.panel4.Name = "panel4";
+            this.tableLayoutPanel4.SetRowSpan(this.panel4, 4);
+            this.panel4.Size = new System.Drawing.Size(2, 399);
+            this.panel4.TabIndex = 5;
             // 
             // carBtn
             // 
@@ -218,31 +211,29 @@
             this.customerBtn.UseVisualStyleBackColor = true;
             this.customerBtn.Click += new System.EventHandler(this.customerBtn_Click);
             // 
-            // button1
+            // panel5
             // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button1.Location = new System.Drawing.Point(3, 57);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(247, 48);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Return Car";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.panel5.Controls.Add(this.tableLayoutPanel5);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel5.Location = new System.Drawing.Point(3, 265);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(247, 137);
+            this.panel5.TabIndex = 6;
             // 
-            // panel4
+            // tableLayoutPanel5
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.panel4.Location = new System.Drawing.Point(256, 3);
-            this.panel4.Name = "panel4";
-            this.tableLayoutPanel4.SetRowSpan(this.panel4, 4);
-            this.panel4.Size = new System.Drawing.Size(2, 399);
-            this.panel4.TabIndex = 5;
+            this.tableLayoutPanel5.ColumnCount = 1;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel5.Controls.Add(this.BtnLogOut, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.welcomeLbl, 0, 1);
+            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 2;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 52.38095F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 47.61905F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(247, 137);
+            this.tableLayoutPanel5.TabIndex = 0;
             // 
             // tableLayoutPanel2
             // 
@@ -285,6 +276,76 @@
             this.label1.Text = "Car Return System";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // BtnLogOut
+            // 
+            this.BtnLogOut.BackColor = System.Drawing.Color.Crimson;
+            this.BtnLogOut.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BtnLogOut.FlatAppearance.BorderSize = 0;
+            this.BtnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnLogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.BtnLogOut.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnLogOut.Image = global::Car_Return.Properties.Resources.icons8_log_in_50;
+            this.BtnLogOut.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnLogOut.Location = new System.Drawing.Point(3, 3);
+            this.BtnLogOut.Name = "BtnLogOut";
+            this.BtnLogOut.Size = new System.Drawing.Size(241, 65);
+            this.BtnLogOut.TabIndex = 0;
+            this.BtnLogOut.Text = "Log Out";
+            this.BtnLogOut.UseVisualStyleBackColor = false;
+            this.BtnLogOut.Click += new System.EventHandler(this.BtnLogOut_Click);
+            // 
+            // welcomeLbl
+            // 
+            this.welcomeLbl.AutoSize = true;
+            this.welcomeLbl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.welcomeLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.welcomeLbl.Location = new System.Drawing.Point(3, 71);
+            this.welcomeLbl.Name = "welcomeLbl";
+            this.welcomeLbl.Size = new System.Drawing.Size(241, 66);
+            this.welcomeLbl.TabIndex = 1;
+            this.welcomeLbl.Text = "Hello";
+            this.welcomeLbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // uC_Cover1
+            // 
+            this.uC_Cover1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.uC_Cover1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uC_Cover1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.uC_Cover1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Cover1.Name = "uC_Cover1";
+            this.uC_Cover1.Size = new System.Drawing.Size(574, 405);
+            this.uC_Cover1.TabIndex = 3;
+            // 
+            // uC_Return1
+            // 
+            this.uC_Return1.BackColor = System.Drawing.Color.CadetBlue;
+            this.uC_Return1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uC_Return1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.uC_Return1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Return1.Name = "uC_Return1";
+            this.uC_Return1.Size = new System.Drawing.Size(574, 405);
+            this.uC_Return1.TabIndex = 2;
+            // 
+            // uC_Customer1
+            // 
+            this.uC_Customer1.BackColor = System.Drawing.Color.Chartreuse;
+            this.uC_Customer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uC_Customer1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.uC_Customer1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Customer1.Name = "uC_Customer1";
+            this.uC_Customer1.Size = new System.Drawing.Size(574, 405);
+            this.uC_Customer1.TabIndex = 1;
+            // 
+            // uC_Car1
+            // 
+            this.uC_Car1.BackColor = System.Drawing.Color.Chocolate;
+            this.uC_Car1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uC_Car1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.uC_Car1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Car1.Name = "uC_Car1";
+            this.uC_Car1.Size = new System.Drawing.Size(574, 405);
+            this.uC_Car1.TabIndex = 0;
+            // 
             // MainMenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -302,6 +363,9 @@
             this.tableLayoutPanel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel5.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -328,5 +392,9 @@
         private UC_Cover uC_Cover1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
+        private System.Windows.Forms.Button BtnLogOut;
+        private System.Windows.Forms.Label welcomeLbl;
     }
 }

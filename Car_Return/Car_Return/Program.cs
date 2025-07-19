@@ -16,7 +16,30 @@ namespace Car_Return
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainMenuForm());
+
+            while (true)
+            {
+                // Step 1: Show Login Form
+                loginForm login = new loginForm();
+                var result = login.ShowDialog();
+
+                if (result == DialogResult.OK)
+                {
+                    // Step 2: If login succeeds, show Main Menu
+                    MainMenuForm main = new MainMenuForm();
+                    var mainResult = main.ShowDialog();
+
+                    // Step 3: If logout, loop again
+                    if (mainResult == DialogResult.Abort) // logout case
+                        continue;
+                    else
+                        break; // app closed
+                }
+                else
+                {
+                    break; // login cancelled or closed
+                }
+            }
         }
     }
 }

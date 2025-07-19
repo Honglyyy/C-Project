@@ -19,6 +19,15 @@ namespace Car_Return
         private void MainMenuForm_Load(object sender, EventArgs e)
         {
             uC_Cover1.BringToFront();
+            if(loginForm.username == "manager")
+            {
+                customerBtn.Visible = false;
+                welcomeLbl.Text += ", manager";
+            }
+            else
+            {
+                welcomeLbl.Text += ", admin";
+            }
         }
         private void customerBtn_Click(object sender, EventArgs e)
         {
@@ -33,6 +42,12 @@ namespace Car_Return
         private void button1_Click(object sender, EventArgs e)
         {
             uC_Return1.BringToFront();
+        }
+
+        private void BtnLogOut_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Abort; // Signal for logout
+            this.Close(); // Close MainMenuForm
         }
     }
 }

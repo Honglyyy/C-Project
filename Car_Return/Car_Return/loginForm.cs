@@ -12,7 +12,7 @@ namespace Car_Return
 {
     public partial class loginForm : Form
     {
-        
+        public static string username;   
         public loginForm()
         {
             InitializeComponent();
@@ -20,20 +20,20 @@ namespace Car_Return
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
-            string username, password;
+            string password = passwordTxt.Text;
             username = usernameTxt.Text;
-            password = passwordTxt.Text;
 
-            if (username == "admin" || username == "Admin" && password == "123") { 
-                MainMenuForm form = new MainMenuForm();
-                form.Show();
+            if ((username == "admin" || username == "manager") && password == "123")
+            {
+                this.DialogResult = DialogResult.OK; // Success
+                this.Close(); // Close login
             }
             else
             {
-                MessageBox.Show("Invalid Identity","Error");
+                MessageBox.Show("Invalid Identity", "Error");
             }
-        }
 
+        }
         private void quitBtn_Click(object sender, EventArgs e)
         {
             Application.Exit();
