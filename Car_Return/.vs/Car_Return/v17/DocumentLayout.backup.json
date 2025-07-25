@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|c:\\users\\hongl\\onedrive\\desktop\\c# winform\\car_return\\car_return\\splash_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|solutionrelative:car_return\\splash_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|c:\\users\\hongl\\onedrive\\desktop\\c# winform\\car_return\\car_return\\splash_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|solutionrelative:car_return\\splash_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|c:\\users\\hongl\\onedrive\\desktop\\c# winform\\car_return\\car_return\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|solutionrelative:car_return\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|c:\\users\\hongl\\onedrive\\desktop\\c# winform\\car_return\\car_return\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|solutionrelative:car_return\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|c:\\users\\hongl\\onedrive\\desktop\\c# winform\\car_return\\car_return\\mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|solutionrelative:car_return\\mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|c:\\users\\hongl\\onedrive\\desktop\\c# winform\\car_return\\car_return\\mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\car_return\\mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|solutionrelative:car_return\\mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|c:\\users\\hongl\\onedrive\\desktop\\c# winform\\car_return\\car_return\\mainmenuform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\car_return\\mainmenuform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|solutionrelative:car_return\\mainmenuform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|c:\\users\\hongl\\onedrive\\desktop\\c# winform\\car_return\\car_return\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\car_return\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|solutionrelative:car_return\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\car_return\\mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B7C67541-B4CC-4005-91A8-7F0CD5CC6A4F}|Car_Return\\Car_Return.csproj|solutionrelative:car_return\\mainmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,26 +46,51 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Splash_Form.cs",
+              "DocumentMoniker": "C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\Car_Return\\Splash_Form.cs",
+              "RelativeDocumentMoniker": "Car_Return\\Splash_Form.cs",
+              "ToolTip": "C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\Car_Return\\Splash_Form.cs",
+              "RelativeToolTip": "Car_Return\\Splash_Form.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T01:42:11.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Splash_Form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\Car_Return\\Splash_Form.cs",
+              "RelativeDocumentMoniker": "Car_Return\\Splash_Form.cs",
+              "ToolTip": "C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\Car_Return\\Splash_Form.cs [Design]",
+              "RelativeToolTip": "Car_Return\\Splash_Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T01:35:41.652Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MainMenuForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\Car_Return\\MainMenuForm.Designer.cs",
               "RelativeDocumentMoniker": "Car_Return\\MainMenuForm.Designer.cs",
               "ToolTip": "C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\Car_Return\\MainMenuForm.Designer.cs",
               "RelativeToolTip": "Car_Return\\MainMenuForm.Designer.cs",
-              "ViewState": "AgIAACkBAAAAAAAAAAAwwDMBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-19T06:18:23.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\Car_Return\\Program.cs",
               "RelativeDocumentMoniker": "Car_Return\\Program.cs",
               "ToolTip": "C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\Car_Return\\Program.cs",
               "RelativeToolTip": "Car_Return\\Program.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAawCwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-19T06:16:39.532Z",
               "EditorCaption": ""
@@ -74,14 +103,14 @@
               "RelativeDocumentMoniker": "Car_Return\\MainMenuForm.cs",
               "ToolTip": "C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\Car_Return\\MainMenuForm.cs",
               "RelativeToolTip": "Car_Return\\MainMenuForm.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAuwDEAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-19T06:15:50.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MainMenuForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\Car_Return\\MainMenuForm.cs",
               "RelativeDocumentMoniker": "Car_Return\\MainMenuForm.cs",
@@ -90,19 +119,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-19T06:15:41.672Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "loginForm.cs",
-              "DocumentMoniker": "C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\Car_Return\\loginForm.cs",
-              "RelativeDocumentMoniker": "Car_Return\\loginForm.cs",
-              "ToolTip": "C:\\Users\\hongl\\OneDrive\\Desktop\\C# winform\\Car_Return\\Car_Return\\loginForm.cs",
-              "RelativeToolTip": "Car_Return\\loginForm.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAuwCEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T06:13:13.221Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

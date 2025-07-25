@@ -40,11 +40,11 @@
             this.customerBtn = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.welcomeLbl = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.BtnLogOut = new System.Windows.Forms.Button();
-            this.welcomeLbl = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.uC_Cover1 = new Car_Return.UC_Cover();
             this.uC_Return1 = new Car_Return.UC_Return();
             this.uC_Customer1 = new Car_Return.UC_Customer();
@@ -235,6 +235,18 @@
             this.tableLayoutPanel5.Size = new System.Drawing.Size(247, 137);
             this.tableLayoutPanel5.TabIndex = 0;
             // 
+            // welcomeLbl
+            // 
+            this.welcomeLbl.AutoSize = true;
+            this.welcomeLbl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.welcomeLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.welcomeLbl.Location = new System.Drawing.Point(3, 71);
+            this.welcomeLbl.Name = "welcomeLbl";
+            this.welcomeLbl.Size = new System.Drawing.Size(241, 66);
+            this.welcomeLbl.TabIndex = 1;
+            this.welcomeLbl.Text = "Hello";
+            this.welcomeLbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.ColumnCount = 2;
@@ -251,17 +263,6 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 162F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(931, 162);
             this.tableLayoutPanel2.TabIndex = 3;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Car_Return.Properties.Resources.red_black_car_with_logo_company_636116_436_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(144, 156);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -294,17 +295,16 @@
             this.BtnLogOut.UseVisualStyleBackColor = false;
             this.BtnLogOut.Click += new System.EventHandler(this.BtnLogOut_Click);
             // 
-            // welcomeLbl
+            // pictureBox1
             // 
-            this.welcomeLbl.AutoSize = true;
-            this.welcomeLbl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.welcomeLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.welcomeLbl.Location = new System.Drawing.Point(3, 71);
-            this.welcomeLbl.Name = "welcomeLbl";
-            this.welcomeLbl.Size = new System.Drawing.Size(241, 66);
-            this.welcomeLbl.TabIndex = 1;
-            this.welcomeLbl.Text = "Hello";
-            this.welcomeLbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Car_Return.Properties.Resources.red_black_car_with_logo_company_636116_436_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(144, 156);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // uC_Cover1
             // 

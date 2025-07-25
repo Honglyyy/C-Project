@@ -30,3 +30,4 @@ C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_R
 C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_Return.csproj.CoreCompileInputs.cache
 C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_Return.exe
 C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_Return.pdb
+C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_Return.Splash_Form.resources

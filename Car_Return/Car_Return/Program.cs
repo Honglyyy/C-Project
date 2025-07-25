@@ -17,29 +17,42 @@ namespace Car_Return
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            while (true)
+            // Step 1: Show Splash Screen first
+            using (Splash_Form splash = new Splash_Form())
             {
-                // Step 1: Show Login Form
-                loginForm login = new loginForm();
-                var result = login.ShowDialog();
+                splash.ShowDialog();
+            }
 
-                if (result == DialogResult.OK)
+            // Step 2: Start login → main menu loop
+            bool runApp = true;
+            while (runApp)
+            {
+                loginForm login = new loginForm();
+                var loginResult = login.ShowDialog();
+
+                if (loginResult == DialogResult.OK)
                 {
-                    // Step 2: If login succeeds, show Main Menu
                     MainMenuForm main = new MainMenuForm();
                     var mainResult = main.ShowDialog();
 
-                    // Step 3: If logout, loop again
-                    if (mainResult == DialogResult.Abort) // logout case
+                    if (mainResult == DialogResult.Abort)
+                    {
+                        // User clicked "Log Out" → go back to login
                         continue;
+                    }
                     else
-                        break; // app closed
+                    {
+                        // MainMenu closed normally → exit app
+                        runApp = false;
+                    }
                 }
                 else
                 {
-                    break; // login cancelled or closed
+                    // Login canceled or closed → exit app
+                    runApp = false;
                 }
             }
         }
+
     }
 }
