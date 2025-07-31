@@ -23,7 +23,6 @@ C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_R
 C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_Return.MainMenuForm.resources
 C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_Return.Properties.Resources.resources
 C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_Return.UC_Car.resources
-C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_Return.UC_Cover.resources
 C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_Return.UC_Customer.resources
 C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_Return.UC_Return.resources
 C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_Return.csproj.GenerateResource.cache
@@ -31,3 +30,4 @@ C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_R
 C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_Return.exe
 C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_Return.pdb
 C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_Return.Splash_Form.resources
+C:\Users\hongl\OneDrive\Desktop\C# winform\Car_Return\Car_Return\obj\Debug\Car_Return.UC_Cover.resources

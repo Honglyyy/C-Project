@@ -68,6 +68,9 @@
             this.ClientSize = new System.Drawing.Size(521, 323);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Splash_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Splash_Form";

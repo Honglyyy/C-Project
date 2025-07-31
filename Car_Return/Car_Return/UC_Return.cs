@@ -13,19 +13,15 @@ namespace Car_Return
     public partial class UC_Return : UserControl
     {
         private int rent = 0;
+
         public UC_Return()
         {
             InitializeComponent();
             cmbDamage.SelectedIndex = 0;
-            
         }
-
-
 
         private void CmbCar_SelectedIndexChanged(object sender, EventArgs e)
         {
-
-
             int selectedCarIndex = CmbCar.SelectedIndex;
             switch (selectedCarIndex)
             {
@@ -71,69 +67,92 @@ namespace Car_Return
                     break;
             }
             TxtRent.Text = rent.ToString("C2");
-
         }
+
         private void totalBtn_Click(object sender, EventArgs e)
         {
-            string cusName = TxtCustomerName.Text;
-            double late = int.Parse(TxtLate.Text);
-            late = rent * 0.5;
-            double damage = 0;
-            string damageCmb = cmbDamage.SelectedItem?.ToString() ?? "";
-            double total = 0;
-            if (cmbDamage.SelectedIndex == 0) // No damage
+            string cusName = TxtCustomerName.Text.Trim();
+
+            // Validate required fields
+            if (string.IsNullOrWhiteSpace(cusName))
             {
-                damage = 0;
-                total = rent + late;
-            }
-            else if (cmbDamage.SelectedIndex == 1) // Minor damage
-            {
-                damage = rent* 0.3;
-                total = (rent) + late + damage; // Extra charge for minor damage
-            }
-            else
-            {
-                MessageBox.Show("Please select a valid damage option.", "Invalid Selection", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please enter the customer's name.", "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+
+            if (CmbCar.SelectedIndex == -1)
+            {
+                MessageBox.Show("Please select a car.", "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (!int.TryParse(TxtLate.Text, out int lateDays) || lateDays < 0)
+            {
+                MessageBox.Show("Please enter a valid number of late days.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            double lateFee = lateDays * rent * 0.1;
+            double damageFee = 0;
+            double total = 0;
+
+            switch (cmbDamage.SelectedIndex)
+            {
+                case 0: // No damage
+                    damageFee = 0;
+                    break;
+                case 1: // Minor damage
+                    damageFee = rent * 0.3;
+                    break;
+                case 2: // Major damage
+                    damageFee = rent * 0.5;
+                    break;
+                case 3: // Total loss
+                    damageFee = rent * 1.0;
+                    break;
+                default:
+                    MessageBox.Show("Please select a valid damage option.", "Invalid Selection", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+            }
+
+            total = rent + lateFee + damageFee;
+
+            // Display results
             txtBasicFee.Text = rent.ToString("C2");
-            txtLateFee.Text = late.ToString("C2");
-            txtDamageFee.Text = damage.ToString("C2");
+            txtLateFee.Text = lateFee.ToString("C2");
+            txtDamageFee.Text = damageFee.ToString("C2");
             txtTotalFee.Text = total.ToString("C2");
-            
         }
 
         private void clearBtn_Click(object sender, EventArgs e)
         {
             TxtCustomerName.Text = "";
-            CmbCar.Text = "";
+            CmbCar.SelectedIndex = -1;
             TxtRent.Text = "";
             TxtLate.Text = "";
-            cmbDamage.Text = "";
+            cmbDamage.SelectedIndex = 0;
             txtBasicFee.Text = "";
             txtLateFee.Text = "";
             txtDamageFee.Text = "";
             txtTotalFee.Text = "";
-
         }
 
         private void receiptBtn_Click(object sender, EventArgs e)
         {
             string customerName = TxtCustomerName.Text;
             string carName = CmbCar.SelectedItem?.ToString() ?? "N/A";
-            string rent = txtBasicFee.Text;
+            string rentFee = txtBasicFee.Text;
             string lateFee = txtLateFee.Text;
             string damageFee = txtDamageFee.Text;
             string totalFee = txtTotalFee.Text;
             string lateDays = TxtLate.Text + " days";
             string damageStatus = cmbDamage.SelectedItem?.ToString() ?? "N/A";
 
-            // Build receipt text
             StringBuilder receipt = new StringBuilder();
             receipt.AppendLine("----- Car Return Receipt -----");
             receipt.AppendLine($"Customer Name: {customerName}");
             receipt.AppendLine($"Car: {carName}");
-            receipt.AppendLine($"Rent Fee: {rent}");
+            receipt.AppendLine($"Rent Fee: {rentFee}");
             receipt.AppendLine($"Late Days: {lateDays}");
             receipt.AppendLine($"Late Fee: {lateFee}");
             receipt.AppendLine($"Damage Status: {damageStatus}");
@@ -143,7 +162,6 @@ namespace Car_Return
             receipt.AppendLine("------------------------------");
             receipt.AppendLine("Thank you for using our service!");
 
-            // Show receipt in a MessageBox or TextBox
             MessageBox.Show(receipt.ToString(), "Receipt");
         }
     }

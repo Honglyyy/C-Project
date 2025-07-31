@@ -40,15 +40,15 @@
             this.customerBtn = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.BtnLogOut = new System.Windows.Forms.Button();
             this.welcomeLbl = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.BtnLogOut = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.uC_Cover1 = new Car_Return.UC_Cover();
+            this.label1 = new System.Windows.Forms.Label();
             this.uC_Return1 = new Car_Return.UC_Return();
             this.uC_Customer1 = new Car_Return.UC_Customer();
             this.uC_Car1 = new Car_Return.UC_Car();
+            this.uC_Cover1 = new Car_Return.UC_Cover();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -235,6 +235,24 @@
             this.tableLayoutPanel5.Size = new System.Drawing.Size(247, 137);
             this.tableLayoutPanel5.TabIndex = 0;
             // 
+            // BtnLogOut
+            // 
+            this.BtnLogOut.BackColor = System.Drawing.Color.Crimson;
+            this.BtnLogOut.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BtnLogOut.FlatAppearance.BorderSize = 0;
+            this.BtnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnLogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.BtnLogOut.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnLogOut.Image = global::Car_Return.Properties.Resources.icons8_log_in_50;
+            this.BtnLogOut.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnLogOut.Location = new System.Drawing.Point(3, 3);
+            this.BtnLogOut.Name = "BtnLogOut";
+            this.BtnLogOut.Size = new System.Drawing.Size(241, 65);
+            this.BtnLogOut.TabIndex = 0;
+            this.BtnLogOut.Text = "Log Out";
+            this.BtnLogOut.UseVisualStyleBackColor = false;
+            this.BtnLogOut.Click += new System.EventHandler(this.BtnLogOut_Click);
+            // 
             // welcomeLbl
             // 
             this.welcomeLbl.AutoSize = true;
@@ -264,6 +282,17 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(931, 162);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Car_Return.Properties.Resources.red_black_car_with_logo_company_636116_436_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(144, 156);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -276,45 +305,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Car Return System";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BtnLogOut
-            // 
-            this.BtnLogOut.BackColor = System.Drawing.Color.Crimson;
-            this.BtnLogOut.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BtnLogOut.FlatAppearance.BorderSize = 0;
-            this.BtnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.BtnLogOut.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BtnLogOut.Image = global::Car_Return.Properties.Resources.icons8_log_in_50;
-            this.BtnLogOut.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnLogOut.Location = new System.Drawing.Point(3, 3);
-            this.BtnLogOut.Name = "BtnLogOut";
-            this.BtnLogOut.Size = new System.Drawing.Size(241, 65);
-            this.BtnLogOut.TabIndex = 0;
-            this.BtnLogOut.Text = "Log Out";
-            this.BtnLogOut.UseVisualStyleBackColor = false;
-            this.BtnLogOut.Click += new System.EventHandler(this.BtnLogOut_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Car_Return.Properties.Resources.red_black_car_with_logo_company_636116_436_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(144, 156);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // uC_Cover1
-            // 
-            this.uC_Cover1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.uC_Cover1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_Cover1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.uC_Cover1.Location = new System.Drawing.Point(0, 0);
-            this.uC_Cover1.Name = "uC_Cover1";
-            this.uC_Cover1.Size = new System.Drawing.Size(574, 405);
-            this.uC_Cover1.TabIndex = 3;
             // 
             // uC_Return1
             // 
@@ -345,6 +335,15 @@
             this.uC_Car1.Name = "uC_Car1";
             this.uC_Car1.Size = new System.Drawing.Size(574, 405);
             this.uC_Car1.TabIndex = 0;
+            // 
+            // uC_Cover1
+            // 
+            this.uC_Cover1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.uC_Cover1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uC_Cover1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Cover1.Name = "uC_Cover1";
+            this.uC_Cover1.Size = new System.Drawing.Size(574, 405);
+            this.uC_Cover1.TabIndex = 3;
             // 
             // MainMenuForm
             // 
@@ -389,12 +388,12 @@
         private UC_Car uC_Car1;
         private UC_Return uC_Return1;
         private UC_Customer uC_Customer1;
-        private UC_Cover uC_Cover1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
         private System.Windows.Forms.Button BtnLogOut;
         private System.Windows.Forms.Label welcomeLbl;
+        private UC_Cover uC_Cover1;
     }
 }

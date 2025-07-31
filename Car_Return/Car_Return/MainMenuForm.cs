@@ -19,7 +19,7 @@ namespace Car_Return
         private void MainMenuForm_Load(object sender, EventArgs e)
         {
             uC_Cover1.BringToFront();
-            if(loginForm.username == "manager")
+            if (loginForm.username == "manager")
             {
                 customerBtn.Visible = false;
                 welcomeLbl.Text += ", manager";

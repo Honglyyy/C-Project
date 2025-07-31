@@ -261,7 +261,9 @@
             this.cmbDamage.FormattingEnabled = true;
             this.cmbDamage.Items.AddRange(new object[] {
             "No Damage",
-            "Damage"});
+            "Minor Damage",
+            "Major Damage",
+            "Total Loss"});
             this.cmbDamage.Location = new System.Drawing.Point(292, 502);
             this.cmbDamage.Name = "cmbDamage";
             this.cmbDamage.Size = new System.Drawing.Size(515, 46);
