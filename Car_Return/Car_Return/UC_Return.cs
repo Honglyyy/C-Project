@@ -14,6 +14,16 @@ namespace Car_Return
     {
         private int rent = 0;
 
+        
+        int[] rentPrices = {
+        52, 50, 48, 45, 90, 85, 80, 78, 66, 62,
+        58, 55, 58, 55, 52, 50, 65, 63, 60, 58,
+        72, 70, 69, 65, 80, 75, 72, 70, 95, 90,
+        85, 82, 130, 122, 120, 114
+    };
+
+        double[] damageRates = { 0.0, 0.3, 0.5, 1.0 };
+
         public UC_Return()
         {
             InitializeComponent();
@@ -22,102 +32,53 @@ namespace Car_Return
 
         private void CmbCar_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int selectedCarIndex = CmbCar.SelectedIndex;
-            switch (selectedCarIndex)
+            int index = CmbCar.SelectedIndex;
+
+            if (index >= 0 && index < rentPrices.Length)
             {
-                case 0: rent = 52; break;
-                case 1: rent = 50; break;
-                case 2: rent = 48; break;
-                case 3: rent = 45; break;
-                case 4: rent = 90; break;
-                case 5: rent = 85; break;
-                case 6: rent = 80; break;
-                case 7: rent = 78; break;
-                case 8: rent = 66; break;
-                case 9: rent = 62; break;
-                case 10: rent = 58; break;
-                case 11: rent = 55; break;
-                case 12: rent = 58; break;
-                case 13: rent = 55; break;
-                case 14: rent = 52; break;
-                case 15: rent = 50; break;
-                case 16: rent = 65; break;
-                case 17: rent = 63; break;
-                case 18: rent = 60; break;
-                case 19: rent = 58; break;
-                case 20: rent = 72; break;
-                case 21: rent = 70; break;
-                case 22: rent = 69; break;
-                case 23: rent = 65; break;
-                case 24: rent = 80; break;
-                case 25: rent = 75; break;
-                case 26: rent = 72; break;
-                case 27: rent = 70; break;
-                case 28: rent = 95; break;
-                case 29: rent = 90; break;
-                case 30: rent = 85; break;
-                case 31: rent = 82; break;
-                case 32: rent = 130; break;
-                case 33: rent = 122; break;
-                case 34: rent = 120; break;
-                case 35: rent = 114; break;
-                default:
-                    MessageBox.Show("Invalid selection.");
-                    rent = 0;
-                    break;
+                rent = rentPrices[index];
+                TxtRent.Text = rent.ToString("C2");
             }
-            TxtRent.Text = rent.ToString("C2");
+            else
+            {
+                MessageBox.Show("Invalid car selection.");
+                rent = 0;
+                TxtRent.Text = "";
+            }
         }
 
         private void totalBtn_Click(object sender, EventArgs e)
         {
             string cusName = TxtCustomerName.Text.Trim();
 
-            // Validate required fields
             if (string.IsNullOrWhiteSpace(cusName))
             {
-                MessageBox.Show("Please enter the customer's name.", "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please enter the customer's name.", "Missing Information");
                 return;
             }
 
             if (CmbCar.SelectedIndex == -1)
             {
-                MessageBox.Show("Please select a car.", "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please select a car.", "Missing Information");
                 return;
             }
 
             if (!int.TryParse(TxtLate.Text, out int lateDays) || lateDays < 0)
             {
-                MessageBox.Show("Please enter a valid number of late days.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please enter a valid number of late days.", "Input Error");
+                return;
+            }
+
+            if (cmbDamage.SelectedIndex < 0 || cmbDamage.SelectedIndex >= damageRates.Length)
+            {
+                MessageBox.Show("Please select a valid damage option.", "Invalid Selection");
                 return;
             }
 
             double lateFee = lateDays * rent * 0.1;
-            double damageFee = 0;
-            double total = 0;
+            double damageFee = rent * damageRates[cmbDamage.SelectedIndex];
+            double total = rent + lateFee + damageFee;
 
-            switch (cmbDamage.SelectedIndex)
-            {
-                case 0: // No damage
-                    damageFee = 0;
-                    break;
-                case 1: // Minor damage
-                    damageFee = rent * 0.3;
-                    break;
-                case 2: // Major damage
-                    damageFee = rent * 0.5;
-                    break;
-                case 3: // Total loss
-                    damageFee = rent * 1.0;
-                    break;
-                default:
-                    MessageBox.Show("Please select a valid damage option.", "Invalid Selection", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-            }
-
-            total = rent + lateFee + damageFee;
-
-            // Display results
             txtBasicFee.Text = rent.ToString("C2");
             txtLateFee.Text = lateFee.ToString("C2");
             txtDamageFee.Text = damageFee.ToString("C2");
@@ -165,4 +126,5 @@ namespace Car_Return
             MessageBox.Show(receipt.ToString(), "Receipt");
         }
     }
+
 }
